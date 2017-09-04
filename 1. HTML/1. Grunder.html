@@ -12,6 +12,23 @@ Taggar och element:
     Taggar och element är två ord ni kommer höra ofta, och ibland kan det bli svårt att hålla koll på vad som är vad. En tagg omges av vinkelparenteser ("<" och ">") med en eller flera bokstäver i mitten som beskriver dess funktionalitet. Exempelvis så är "<p>"-taggen en tagg för att skapa paragraf-element. De flesta taggar han en start och en sluttagg ("<p>" och "</p>") som talar om när elementet börjar och slutar. När man vill använda sig av en paragraf("<p>") på sin webbsida så måste man skapa ett element av denna. Då skapar man först en starttagg, skriver sin paragraf och sedan avslutar med en sluttagg, exempel: <p>Det här är ett paragraf-element!</p>. 
 
     För att förenkla skillnaden: En tagg beskriver "<p>" som ensamstående medans ett element beskriver information omgiven av en start och sluttagg ("<p>Detta är ett element!</p>").
+    (Kolla upp alla olika taggar/element för HTML: https://www.w3schools.com/TAGs/)
  
 Attribut:
-    
+    Attribut används för att vidare specificera egenskaper hos ett element. Det finns både lokala och globala attribut. Med globala attributer menar man attributer som kan tillämpas på alla element som exempelvis attributen "id" och "class", exempel: <p class="myClass">Denna paragraf har en class</p>. Detta element har nu klassen "myClass" som vi kan använda oss av när vi exempelvis vill skriva specificerad CSS kod för elementet (Detta går vi igenom mer när vi börjar med CSS). Med lokala attribut menar vi element-specifika attribut och som exempel tar vi "<a>"-elementet som exempel. Med "<a>" skapar vi länkar, antingen externa länkar eller lokala (mellan olika dokument) länkar. För att göra detta måste vi specificera en address länken ska leda till och detta gör vi med attributet "href". Vill vi skapa en länk till en extern webbsida behöver vi inkludera URL:en för denna och vill vi skapa en länk till ett lokalt dokument så skriver vi sökvägen till det dokumentet. Exempel för extern webbaddress: <a href="http://www.google.se">Google</a>. Exempel för lokal: <a href="AnnatDokument.html">Till andra sidan!</a>. Vid lokal länkning bör man vara noga med att inkludera filtypen i namnet(".html").
+    (Kolla upp flera attribut: https://www.w3schools.com/TAGs/ref_attributes.asp)
+        
+
+Grundläggande struktur för HTML-dokument:
+        
+    <!DOCTYPE html>                                     <!--Berättar för webbläsaren vilken version av HTML vi använder-->
+        <html>                                          <!--Början på vårat HTML dokument-->
+            <head>                                      <!--I head deklarerar vi titel, metadata, länkar till CSS/script osv-->
+                <title>Titel för vår webbsida</title>   <!--Titel element-->
+            </head>                                     <!--Slut på head-elementet-->
+            <body>                                      <!--Början på vår body, här skriver vi kod för vår struktur-->
+                <h1>Välkommen till min webbsida</h1>    <!--h1 element med text-->
+                <p>En paragraf med massa text</p>       <!--paragraf-element-->
+                <a href="http://www.google.se">GoogL</a><!--Länk till google.se med texten "GoogL"-->
+            </body>                                     <!--Slutet på vår body-->
+        </html>                                         <!--Slutet på vårat HTML dokument-->
