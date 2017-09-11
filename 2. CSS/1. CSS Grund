@@ -1,0 +1,73 @@
+Kurs: Webbutveckling 2
+Lärare: Markus Nordin
+Syfte: Kortfattat täcka grunderna inom CSS
+
+
+CSS:
+    CSS (Cascading Style Sheets) som beskrivet i dokumentet Grunder.html definierar utseendet för en webbsida, dvs vi kan se på CSS som huden och det estetiska hos en människa. CSS tillåter oss att sätta bakgrundsfärger, byta fonter, ändra storlekar på element, bestämma var våra element ska sitta på webbsidan och mycket mer. Kortfattat så kan man säga att CSS beskriver för webbläsaren hur vi vill att våra HTML element ska synas. För att se hur CSS kan påverka en webbsida så är CSS demon på w3schools webbsida(https://www.w3schools.com/css/css_intro.asp) ett bra exempel på detta. Så hur skapar man CSS för en webbsida? Precis som att normen är index.html för ett HTML-dokuments ingångspunkt så namnger man ett textdokument till style.css eller styles.css, därefter använder vi så kallade selektorer för att välja HTML-element vi ska skapa en stil för. Något som är viktigt att tänka på när man skapar en stil i ett CSS dokument är att stilarna appliceras "fallande" i CSS, det vill säga att om vi exempelvis skulle använda "*"-selektoren och bestämma att alla element ska vara utan padding och sedan under denna selektoren skulle bestämma att alla "p" element ska ha 10 i padding så kommer alla "p" elementen ha 10 i padding.
+    
+    Exemplet ovan:
+                * {                 Här tar vi bort all padding från ALLA element 
+                padding: 0px;
+                }
+                
+                p {                 Här ger vi alla p-element 10 i padding på alla sidor
+                padding: 10px;
+                }
+                
+                resultatet här blir att alla element förutom "p" elementet har 0 i padding
+    
+
+Selektorer:
+    Ett CSS dokument består av selektorer och sedan stilar. För att skapa en stil måste vi därför peka på vilket element vi vill påverka, det gör vi som sagt med hjälp av en selektor. En selektor består av en taggbeteckning följt av brackets ("{ }" <-- vad dessa nu heter på svenska).
+    
+    Exempel:
+        p {         Denna selektor pekar på alla "p" element och de ändringar vi gör
+                    inom våra brackets kommer ske på alla enskilda "p" element
+        }
+    
+    Alla olika element i HTML kan påverkas av CSS, men det är även flera olika selektorer som är bra att använda. För att nämna tre stycken så har vi "*"-selektorn som pekar mot alla element vi använder. Denna är bra att använda för att exempelvis ta bort all margin och padding från element.
+    
+    Exempel(i CSS-dokumentet):
+        * {
+        margin: 0;
+        padding: 0;
+        }
+    
+    Därefter så har vi selektorer för ID och class. För att ge ett element ett ID i HTML-dokumentet så skriver vi med id="namn" efter tagg-deklarationen.
+    
+    Exempel(i HTML-dokumentet):
+        <div id="container"</div>
+        
+    ID är unika och kan bara användas en gång(ID med samma namn, dvs) medans class(med samma namn) kan användas flera gånger. För att besvara frågan "Varför använda ID överhuvudtaget då?" lite snabbt så är det för att det är bra praxis generellt att ge ID till den struktur vi vill hålla unik samt för att det är enklare att hitta element med ID än class i JavaScript(mer om det senare). För att skapa en selektor för ett ID så använder vi oss av "#" följt av namnet.
+    
+    Exempel(i CSS-dokumentet):
+        #container {
+        padding: 0;
+        margin: 0 auto;
+        }
+    
+    Klasser kan som sagt användas flera gånger i samma HTML-dokument så dessa är bra att använda till exempelvis sidospalter och vad man nu kan komma på. För att skapa en klass i ett HTML-dokument så gör man lika som med ett ID fast man skriver class istället.
+    
+    Exempel(i HTML-dokumentet):
+        <div class="sidebar"></div>
+        
+    Och för att skapa en selektor för vår class skriver vi "." följt av namnet och brackets.
+    
+    Exempel(i CSS-dokumentet):
+        .sidebar {
+        border: 1px solid #000;
+        }
+        
+    Säg att vi har skapat en class som färgar texten röd och sätter en margin-left till 10px som vi har satt på ett ex antal olika element men vi vill att alla "p"-element med denna klass ska ha en font-size på 20 pixlar. För att lösa detta kan vi skapa en selektor som pekar mer specifikt på ett element. Detta gör vi genom att skriva class namn följt av taggen vi vill ska påverkas särskilt när den går under samma class, sedan brackets.
+    
+    Exempel:
+        .className p {
+        
+        }
+        
+    Denna selektorn pekar nu bara på alla "p"-element som bär vår class "className".
+    
+
+Testa på CSS:
+    Skapa ett nytt HTML-dokument och använd strukturen som finns i mappen "1. HTML", i <head> skriver ni in <link rel=stylesheet type="text/css" href="style.css">. Sedan fyller ni på med olika element tills ni är nöjda. Därefter skapar ni ett dokument i samma mapp som ni döper till "style.css" och testar sedan att skapa selektorer och ge olika element stilar. På w3schools(https://www.w3schools.com/css/default.asp) kan ni hitta CSS-kod att testa på tills vidare.
