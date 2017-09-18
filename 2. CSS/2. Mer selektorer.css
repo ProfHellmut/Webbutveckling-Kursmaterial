@@ -39,5 +39,20 @@ Specificering:
     I exemplet ovan så vill vi att endast paragraf-element som är inuti .btn-klassen som i sin tur är inuti .btn-container som är inuti .main-nav som är inuti .main-header ska ha en font-size av 115%. Detta är ett väldigt långsökt exempel så jag råder er från att aldrig göra så här med tanke på att det finns mycket enklare sätt att nå denna paragraf på. Men exemplet visade på att vi kan vara extremt specifika med våra selektorer. Notera att när vi vill vara specifika med våra selektorer så använder vi bara mellanslag, inga "," komman som när vi väljer flera element.
 
 
-Pseudo-klasser
+Pseudo-klasser:
+    Pseudo-klasser används för att specificera en stil beroende på vilket läge/tillstånd ett element är i. För att som enklast förstå pseudo-klasser så kan vi ta en titt på ett länk-element("<a>"). Detta element har fyra stadier: link, active, hover och visited. "link" är det stadie elementet har när länken inte besökts, det vill säga unvisited, "active" är stadiet länken har när vi trycker på den, "hover" är stadiet länken har när vi endast håller muspekaren på länken och visited är stadiet länken har om vi tidigare besökt sidan (Detta kan ni testa i ett vanligt HTML-dokument). I detta elements fall så ändras färgen för texten. Notis: dessa pseudo-klasser fungerar på andra element.
+
+    Dessa fyra pseudo-klasser är väldigt bra att känna till när vi designar våra egna knappar och vill att de ska uppföra sig annorlunda beroende på vilket stadie de är i. Som exempel för detta så kan vi ta pseudo-klasserna "link" och "visited" då jag tycker att en knapp ska ha samma färg/stil oavsett om man besökt webbsidan eller inte.
+
+    Exempel:
+        .custom-btn:link,
+        .custom-btn:visited {
+            background-color: #6290e2;
+            color: #fff;
+        }
     
+    I exemplet ovan så arbetar vi på vår egna knapp och här vill vi se till att bakgrundsfärgen samt textfärgen är lika oavsett om vi besökt webbsidan eller inte("link" = icke besökt, "visited" = besökt).
+
+    Andra exempel där vi kanske vill använda pseudo-klasser kan exempelvis vara när vi arbetar på tabeller och vill att varannan rad ska ha en lite mörkare bakgrundsfärg. Vill vi åstadkomma detta så kan vi använda oss av pseudo-klassen "nth-of-type()" och skriva in "odd" eller "even" inom parentesen för att påverka varannat element.
+
+    Mer om vilka pseudo-klasser som finns: https://www.w3schools.com/css/css_pseudo_classes.asp

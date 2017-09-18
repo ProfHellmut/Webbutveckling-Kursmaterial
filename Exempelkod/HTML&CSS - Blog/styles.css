@@ -1,0 +1,53 @@
+/*Hela body-elementet*/
+body {
+    /*Vi sätter huvudfont till montserrat, och om den inte
+    laddar så begär vi vanlig sans-serif som font*/
+	font-family: montserrat, sans-serif;
+    
+    /*All font-size sätts till 16px ordinarie*/
+    font-size: 16px;
+    
+    /*Vi sätter margin på top/bottom till 15px sen auto
+    på vänster och höger för centrering*/
+	margin: 15px auto;
+    
+    /*Vi vill att bredden på vårat innehåll ska ta upp 80%
+    av hela webbsidan*/
+	width: 80%;
+    
+    /*Vi sätter en 24px solid grå border runt hela vårat innehåll*/
+	border: 24px solid #B6BABB;
+	padding: 20px;
+}
+
+/*För alla element med .blogpost-klassen*/
+.blogpost {
+    /*Vi ger elementen 20px margin runtom*/
+	margin: 20px;
+    
+    /*Skapar en grå 2px tjock border-bottom*/
+	border-bottom: 2px solid rgba(63,63,63, 0.2)
+}
+
+/*Alla h2-element inom .blogpost-klassen*/
+.blogpost h2 {
+    /*Vi sätter font-size till 2.4ggr av ordinarie
+    font-size*/
+	font-size: 2.4em;
+}
+
+/*Alla h3-element i .blogpost-klassen*/
+.blogpost h3 {
+    /*Vi sätter textfärgen till ljusblå och
+    att det ska vara 2px mellanrum mellan alla tecken*/
+	color:#50aee0;
+	letter-spacing: 2px;
+}
+
+/*Första <p>-elementet i .blogpost-klassen*/
+.blogpost p:nth-of-type(1) {
+    /*Vi sätter en border på vänster sida samt
+    mer padding*/
+	border-left: 7px solid #B6BABB;
+	padding-left: 5px;
+}

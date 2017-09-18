@@ -1,0 +1,33 @@
+/*Peka mot alla img-element*/
+img {
+    /*Sätt bredd till 30% och margin
+    till 1.66% (på varje sida = 3.32% vilket ger
+    sammanlagta bredd på img till 33%)*/
+	width: 30%;
+    margin: 1.66%;
+    /*float till left så att alla ligger
+    bredvid varandra, 3st per "rad"*/
+	float: left;
+}
+
+/*Peka mot p-elementet*/
+p {
+    /*Margin-left ska matcha bildernas*/
+	margin-left: 1.66%;
+    
+    /*Öka text-storleken*/
+	font-size: 25px;
+    
+    /*Gör om texten till uppercase*/
+	text-transform: uppercase;
+    
+    /*Sätt en border under elementet*/
+	border-bottom: 2px solid #f1f1f1;
+    
+    /*Vi ger en bredd på 30% till vårat element*/
+	width: 30%;
+    
+    /*Sätt en padding på undersidan av elementet
+    så vi får en distans mellan text och border*/
+	padding-bottom: 20px;
+}
