@@ -1,0 +1,43 @@
+Kurs: Webbutveckling 2
+Lärare: Markus Nordin
+Syfte: Mer avancerat om selektorer
+
+
+Fortsättning:
+    För att undvika att ett dokument blir fylld av text och tråkig att läsa så går vi in djupare i selektorer i detta dokument. I förra dokumentet gick vi igenom grundläggande selektorer, det vill säga att man skapar en selektor med hjälp av elementnamn följt av brackets "{ }" och mellan dessa skriver vi vår stilkod. Därefter gick vi igenom skapandet av id samt class i HTML-kod samt CSS och dess betydelse. I detta dokument ska vi gå djupare in hur vi kan välja element med hjälp av selektorer samt vad pseudoklasser i CSS är.
+
+
+Påverka flera element samtidigt:
+    Väldigt ofta händer det att vi vill påverka flera element samtidigt i samma selektor. Detta är inget problem alls då det enda vi behöver göra för att påverka ett till element i samma selektor är att skilja på dem med hjälp av "," kommatecknet.
+
+    Exempel:
+        h1,
+        h2 {
+            padding: 0 2px 0 2px;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 200%;
+        }
+        
+        h2 {
+            font-size: 135%;
+        }
+
+    I exemplet ovan så har vi kommit på att vi vill ha en padding på 2 pixlar på höger och vänster sida på både h1 och h2 samt lika font-weight. Det är en väldigt bra praxis att skapa en gemensam selektor för element som ska dela vissa egenskaper, på så sätt undviker vi att duplicera kod och därmed skapar vi bättre kodläsbarhet.
+
+
+Specificering:
+    Återigen tänker jag nämna att man kan vara väldigt specifik när man väljer element man vill påverka. I det tidigare dokumentet visade jag ett exempel där vi ville påverka "p"-elementen inuti en viss klass och nu vill jag bara påminna om att man kan vara så specifik man vill så länge det passar in och finns ett behov för det. Bara som exempel så kan vi överdriva lite.
+
+    Exempel:
+        .main-header .main-nav .btn-container .btn p {
+            font-size: 115%;
+        }
+
+    I exemplet ovan så vill vi att endast paragraf-element som är inuti .btn-klassen som i sin tur är inuti .btn-container som är inuti .main-nav som är inuti .main-header ska ha en font-size av 115%. Detta är ett väldigt långsökt exempel så jag råder er från att aldrig göra så här med tanke på att det finns mycket enklare sätt att nå denna paragraf på. Men exemplet visade på att vi kan vara extremt specifika med våra selektorer. Notera att när vi vill vara specifika med våra selektorer så använder vi bara mellanslag, inga "," komman som när vi väljer flera element.
+
+
+Pseudo-klasser
+    
