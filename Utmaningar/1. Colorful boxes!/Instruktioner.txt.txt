@@ -1,0 +1,13 @@
+För denna utmaning ska ni skapa 9st kvadrater med olika färg.
+I den mittersta kvadraten(som ska vara vit) ska ni placera en text i mitten med ordet "Boxes!"
+
+Tips: använd <div> element!
+
+HTML-koden ska skrivas i index.html
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med bilden i mappen (resultat.png).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)

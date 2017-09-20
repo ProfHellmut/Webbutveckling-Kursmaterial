@@ -1,0 +1,28 @@
+Huvudtitel: Lab Report
+
+Department: D.G.D.C
+Subject: Cell-growth manipulation
+Test: Injection of Serum 421582b
+
+Patient: Thomas Delaney
+Date: 2017-10-11
+Author: Dr. John Haddler
+
+Purpose
+The purpose of Serum 421582b is to up the exponential growth in cell populations whilst eliminating destructive cells such as cancer cells. Other than removing diseases, Serum 421582b aims to further expand our research regarding the regrowth of human tissue.
+Since the unfortunate death of Philip Tanner during our previous test using Serum 421582a we will have to progress using patient Thomas Delaney, 42, who had his right arm amputated due to skin necrosis in May 2016. Our initial forecast dictates that Thomas Delaney is a splendid substitute for Thomas Delaney and we expect good results.
+
+(&mdash; är ett specialtecken i HTML, använd detta)
+Data/Observation
+09.00 &mdash; Time of injection, the patient seems unweary but is steadily calming down. 
+09.12 &mdash; The patients cells are reacting to the serum and their exponential growth seems to have doubled although the patient has developed a slight fever.
+09.25 &mdash; The patients fever is spiking and has reached 41.7 degrees celcius. This would ordinarily kill a human being but seeing as the cells keep replenishing at an extraordinary speed the fever does not do much. Taking blood samples for testing.
+09.31 &mdash; The fever seems to have stopped at 42.6 degrees celcius and the patient is breathing normally as if the fever is gone, did the serum up the patients core temperature?
+09.34 &mdash; Nothing new regarding the patient, however the blood from the samples taken earlier is turning black and is clotting.
+09.44 &mdash; The patient just woke up from his sedation and is furious and screaming and doesent seem to remember anything. It seems like the newly formed cells has started to attack the healthy cells causing the patient pain.
+09.49 &mdash; Anomalies are growing from the patients body and seems to be moving independently of the patients will. This test is a failure and has reached its end point. We will be freezing our patient to hinder any further development.
+10.11 &mdash; The patient cut loose from his restraints and attacked my assistant. Patient seems to be distant, as if unconscious, and the anomalies have grown exponentially. Writing this from the secondary operating room. I'm calling this whole operation off. Anyone watching this live feed; lock the doors and send for help, he hasn't noticed me yet but I feel I am soon out of time.
+10.17 &mdash; HELP ME
+
+Conclusion
+Awaiting input..

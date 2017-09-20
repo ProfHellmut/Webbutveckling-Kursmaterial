@@ -1,0 +1,16 @@
+För denna utmaning ska ni skapa en Todo lista med 8 punkter.
+Två av dessa punkter ska vara avklarade(checkbox ska vara checked och texten överstruken).
+Det viktiga med denna utmaning är att lära sig läsa dokumentation på internet och hitta
+användbar information.
+
+Tips: Sök efter "<input>" taggen och dess attribut. För CSS kan ni söka efter stilkod som
+påverkar text.
+
+HTML-koden ska skrivas i index.html
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med bilden i mappen (resultat.png).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)

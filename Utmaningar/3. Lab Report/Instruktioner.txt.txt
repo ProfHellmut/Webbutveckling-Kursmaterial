@@ -1,0 +1,21 @@
+För denna utmaning ska ni skapa en mall för en labbrapport och fylla på med angiven text
+som ligger i textfilen "lab-report.txt". Då utseendet för webbsidan tar för mycket text
+att beskriva så hänvisar jag till bilden "resultat.png".
+
+Tips: CSS ni bör kolla upp:
+		font-weight
+		float
+		border
+		border-radius
+		letter-spacing
+		list-style
+		margin & padding
+
+HTML-koden ska skrivas i index.html
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med bilden i mappen (resultat.png).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
