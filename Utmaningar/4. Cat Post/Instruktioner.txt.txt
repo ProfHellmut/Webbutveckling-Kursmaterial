@@ -1,0 +1,17 @@
+I denna utmaning fokuserar vi på text formatering. Webbsidan är en simpel
+"post" med en bild, titel och brödtext i form av en Cat Ipsum. HTML-koden
+är klar så ni behöver bara fokusera på CSS-koden. Jag använde mig av fonten
+"Lato" för texten som finns att hämta på google fonts.
+
+Tips: CSS ni bör kolla upp:
+		font-weight
+		border-radius
+		margin & padding
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med bilden i mappen (resultat.png).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
