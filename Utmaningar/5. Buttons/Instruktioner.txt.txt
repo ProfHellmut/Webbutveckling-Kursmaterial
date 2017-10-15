@@ -1,0 +1,19 @@
+I denna utmaning ska du designa egna knappar. Här fokuserar vi på att
+använda oss av pseudo-klasser för att hantera händelserna "visited", "link",
+"active" och "hover". Vilken färg och stil ni väljer är helt upp till er, ju
+snyggare desto bättre, kravet är dock att färgen ska skifta vid hover. Bonuspoäng
+till er som lyckas animera händelserna med hjälp av "transition".
+
+Tips: CSS ni bör kolla upp:
+		pseudoklasser
+		text-decoration
+		border/border-radius
+		transition
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med bilderna i mappen (resultat-före.png, resultat-efter.png).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
