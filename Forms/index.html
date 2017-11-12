@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Forms</title>
+    </head>
+    <body>
+    
+        <!--<form> definierar början av vår form-->
+        <!--I action-egenskapen definierar vi var datan ska,
+            antingen till en extern url eller intern inom vår webbsida-->
+        <!--I egenskapen method definierar vi vilken request-metod vi ska använda-->
+        <!--De två vanligaste är GET och POST, med get ber vi om data från en källa
+            och med post skickar vi vidare data som ska på något sätt behandlas-->
+        <form action="URL" method="post">
+            <div>
+                <!--Labels används som beskrivande text för ett input-->
+                <!--Med for-attributet kan vi länka en label till en input
+                    genom att skriva vårt inputs id-->
+                <label for="name">Namn:</label>
+                <input type="text" id="name" name="user_name"/>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <!--Input är ett tomt element som kan ha många olika
+                    former beroende på vilken type vi sätter, i detta fall ett textfält-->
+                <!--Med attributen id kopplar vi vår label, detta tillåter en användare
+                    att exempelvis trycka på texten från vår label och hamna direkt
+                    in i vår input-->
+                <!--Sist så har vi attributen name. Här definierar vi ett namn som datan
+                    ska få så att vi senare kan snappa upp datan via namnet och utföra
+                    våra operationer-->
+                <input type="text" id="email" name="user_email"/>
+            </div>
+            <div>
+                <label for="phone">Telefon:</label>
+                <input type="text" id="phone" name="user_phone">
+            </div>
+            <div>
+                <label for="message">Meddelande:</label>
+                <!--En textarea är en multiline textbox och används ofta när
+                    användaren ska få skriva in längre text-->
+                <textarea id="message" name="user_message"></textarea>
+            </div>
+            <!--Sist har vi vår button med type submit. Submit tillåter oss att
+                skicka iväg datan.-->
+            <!--En button har 3 olika types, submit, reset och button. Submit används
+                för att skicka iväg data. Reset används för att sätta default-värden på alla
+                inputs och liknande, reset används sällan då den ses som dålig praxis ur ett
+                design perspektiv. Button gör absolut ingenting och används ofta när vi vill
+                skapa våra egna knappar med hjälp av CSS och JS-->
+            <button type="submit">Skicka</button>
+        </form>
+    
+    </body>
+</html>
