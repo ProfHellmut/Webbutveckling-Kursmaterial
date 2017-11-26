@@ -1,0 +1,14 @@
+I denna utmaning ska ni skapa en återanvändbar box som ska ha två olika former, "square" och "rounded".
+Dessa två bör vara definierade klasser, åtminstone "rounded". När man applicerar t.ex klassen "rounded"
+till en box så ska den boxen få avrundade kanter. Sedan kommer fokuset på bilden i boxen. Denna bild
+ska animeras som i videon resultat.mp4 och detta kan ni använda opacity och transform: scale för.
+
+Tips: Box-shadow, transform: scale, transition: transform och opacity, overflow(vid behov)
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med videon i mappen (resultat.mp4).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
