@@ -1,0 +1,28 @@
+I denna utmaning ska du designa en webbsida från sketcherna Sektion1, Sektion2 och Sektion3.
+
+Fontstyle: Lato, sans-serif
+Brödtext: 16px
+Font color: #232426
+
+Sektion1:
+Titel: Food-To-Go (h1 450%, #FFF)
+Länkar: Hur vi gör(20px, #FFF, hover till text: #c15e1d, bakgrundsfärg: #FFF), Beställ (20px, #FFF, hover till text: #c15e1d, bakgrundsfärg: #FFF)
+Bakgrund: Använd hero.jpg, denna ska täcka hela viewporten(100vh).
+
+Sektion2:
+En boxshadow runt de tre info-boxes(box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.59))
+
+Sektion3:
+Sektion3 består av en titel och en form.
+I formen ska det finnas en dropdown-list med 5 val: "Välj mat..", "Kebabsallad", "Kebabpizza", "Linguini", "Pasta Alfredo"
+Meddelande-input ska vara multiline.
+(Du får styla hur du vill i övrigt)
+
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med videon i mappen (resultat.mp4).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
