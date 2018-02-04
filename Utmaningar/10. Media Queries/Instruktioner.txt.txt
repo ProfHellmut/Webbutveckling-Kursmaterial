@@ -1,0 +1,17 @@
+Denna utmaning handlar om att öva på media queries för att skapa layouter anpassade för olika skärmstorlekar.
+Här ska vi hantera tre olika storlekar: över 800px, över 500px men under 800px, under 500px.
+
+Här kan ni använda er av div-element som ni formar på olika sätt. För att tydligt se skillnad när man når
+dessa breakpoints bör ni göra drastiska ändringar till utseendet(Ni kan kolla på resultat-bilderna).
+
+
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni(om ni använder Chrome) högerklicka på er webbsida, inspektera sidkälla
+och sedan förminska/förstora er webbsida. När ni gör detta ser ni storleken i pixlar i övre högra hörnet som ni
+kan använda er av när ni kollar era breakpoints.
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)

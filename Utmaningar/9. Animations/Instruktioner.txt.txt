@@ -1,0 +1,14 @@
+I denna utmaning ska du öva på animationer i CSS.
+Du ska med hjälp av animationer "skjuta" in fyrkanter in mot mitten av din webbsida, rotera dessa och sedan
+visa en rubrik med texten "Animations".
+
+Komihåg att vi bara använder opacity- och transform-egenskaperna i animationer!
+Tips: kolla upp animation-fill-mode
+
+CSS-koden ska skrivas i styles.css
+
+För att kolla om ni gjort korrekt kan ni jämföra er webbsidas utseende med videon i mappen (resultat.mp4).
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb2-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och CSS-filerna)
