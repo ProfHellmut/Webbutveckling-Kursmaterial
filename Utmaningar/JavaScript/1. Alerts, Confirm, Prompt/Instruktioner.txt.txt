@@ -1,0 +1,16 @@
+I denna utmaning ska ni använda er av en alert, confirm och en prompt. Dessa ska köras vid knapptryck.
+
+Alert: Vid knapptryck ska en alert poppa upp med texten "Hello!" och texten "Alert used!" ska dyka upp i h2:an med id "result".
+
+Confirm: Vid knapptryck ska en confirm poppa upp med texten "Are you sure?". Trycker man "OK" ska texten "Great!" dyka upp i
+h2:an med id "result", annars om man trycker på "CANCEL" ska texten "Too bad!" dyka upp i samma h2.
+
+Prompt: Vid knapptryck ska texten "Name?" dyka upp. Det man sedan skriver in i textfältet ska dyka upp h2:an med id "result".
+
+
+Tips: Event listeners, function, querySelector/getElementById, const, let
+JavaScript koden ska skrivas i app.js
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och JS-filerna)

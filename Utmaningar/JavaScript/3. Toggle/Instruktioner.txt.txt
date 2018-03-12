@@ -1,0 +1,10 @@
+I denna utmaning ska ni via JavaScript skapa en toggle funktion för text.
+
+När man trycker på knappen "Show/Hide" ska texten i h2:an visas eller gömmas beroende på om den syns redan eller ej.
+
+Tips: JS style property, CSS visibility
+JavaScript koden ska skrivas i app.js
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och JS-filerna)
