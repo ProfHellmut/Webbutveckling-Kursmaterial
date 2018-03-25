@@ -1,0 +1,15 @@
+I denna utmaning ska ni träna på att hämta värden från inputs med JavaScript.
+I index.html ser ni tre olika typer av inputs som ska bindas: text, checkbox och select med options.
+Utöver inputs har vi även en knapp samt olika span-element som ska hålla resultaten bindas.
+
+När man trycker på knappen ska:
+-Värdet ur textinput ska läggas i sitt span element.
+-Värdet av ifall checkboxen är checkad eller ej ska läggas i sitt span-element.
+-Värdet för vald option i select ska läggas i sitt span-element.
+
+Tips: property/egenskap i JS: value, checked, options, selectedIndex
+JavaScript koden ska skrivas i app.js
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och JS-filerna)

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Inputs &amp; Värden</title>
+</head>
+<body>
+    
+    <div class="row">
+        <div class="col-md-3 mx-auto">
+            <h1 class="text-center">Inputs &amp; Värden</h1>
+            <form>
+                <div class="form-group row">
+                    <label for="textbox" class="col-sm-5 col-form-label">Input: Text</label>
+                    <div class="col-sm-7">
+                        <input type="text" class="form-control" id="textbox" placeholder="Skriv text här"> <!-- Denna behövs i JS -->
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-5">Input: Checkbox</label>
+                    <div class="col-sm-7">
+                        <label class="form-check-label" for="checkbox">På/Av</label>
+                        <input class="form-check-input ml-2" type="checkbox" id="checkbox"> <!-- Denna behövs i JS -->
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-5">Input: Select</label>
+                    <select id="select" class="form-control col-sm-7"> <!-- Denna behövs i JS -->
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+            </form>
+            <button id="resultat" class="btn btn-primary mb-2">Testa värden</button> <!-- Denna behövs i JS -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 mx-auto">
+            <!-- RESULTAT -->
+            <h2 class="text-center">Resultat</h2>
+            <p>Resultat text: <span id="text-resultat"></span></p> <!-- Denna behövs i JS -->
+            <p>Resultat checkbox: <span id="check-resultat"></span></p> <!-- Denna behövs i JS -->
+            <p>Resultat select: <span id="select-resultat"></span></p> <!-- Denna behövs i JS -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
