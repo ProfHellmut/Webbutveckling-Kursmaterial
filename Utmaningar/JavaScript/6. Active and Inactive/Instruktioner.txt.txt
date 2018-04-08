@@ -1,0 +1,20 @@
+I denna utmaning ska ni träna på att använda querySelectorAll samt hur man
+lägger till eventlisteners via en loop. Ni ska även lära er använda classList's
+metoder för att lägga till/ta bort klasser.
+
+Vid uppstart av webbsida:
+-Dokumentmetoden 'window.onload' ska kopplas till en funktion som lägger till
+event listeners till alla 'li'-element
+
+När man trycker på en 'li' ska:
+-Eventlistener för den li'n ska köras
+-En funktion ska köras som tar bort klassen 'active' från alla element
+-Klassen 'active' ska läggas i classList för den li användaren tryckt på
+
+Tips: property/egenskap i JS: target.value, target.classList, classList.Add/Remove/Contains, 
+querySelectorAll, window.onload, forEach
+JavaScript koden ska skrivas i app.js
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och JS-filerna)

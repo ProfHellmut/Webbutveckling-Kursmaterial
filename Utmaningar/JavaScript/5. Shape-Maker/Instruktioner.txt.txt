@@ -1,0 +1,17 @@
+I denna utmaning ska ni träna på att skapa element via JavaScript.
+Element som ska skapas är div-element. Dessa div-element ska få klasser
+baserade på värdena i Shape och Color droplistsen.
+När ett element har skapats ska den placeras i shape-placement diven.
+
+När man trycker på knappen ska:
+-Värdena ur Shape/Color sparas i variabler
+-Nytt element ska skapas och lagras i en variabel
+-Det nya elementet ska få klassnamn baserat på värdena ur Shape/Color
+-Elementet placeras i shape-placement
+
+Tips: property/egenskap i JS: value, className, options, selectedIndex, createElement, appendChild
+JavaScript koden ska skrivas i app.js
+
+
+För uppladdning till GitHub vill jag att ni skapar en mapp som ni döper till Webb-Utmaningar och därefter en mapp med utmaningens namn.
+(Notis: Skriv erat namn som en kommentar i både HTML- och JS-filerna)

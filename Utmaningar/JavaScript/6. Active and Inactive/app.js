@@ -1,0 +1,5 @@
+// Variabler
+
+// Onload
+
+// Allt annat

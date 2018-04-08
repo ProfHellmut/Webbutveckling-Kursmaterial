@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0;}
+body {margin: 0 auto; width: 550px; text-align: center;}
+h3 {width: 40%;}
+h3:first-of-type {margin-right: 20%;}
+select {width: 40%;}
+button {margin: 0 2%;}
+.shape-placement {text-align: left; margin-top: 50px;}
+
+/* Dessa klasser ska användas i JS */
+/* Shapes */
+.box,
+.circle,
+.rectangle {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.circle {border-radius: 50%;}
+.rectangle {width: 200px;}
+/* Color */
+.red {background-color: red;}
+.green {background-color: green;}
+.blue {background-color: blue;}
